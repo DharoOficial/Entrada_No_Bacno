@@ -7,7 +7,6 @@ namespace Entradas_No_Banco
         //https://dojopuzzles.com/problems/entradas-no-banco/
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             DateTime horaAtual = new DateTime();
             horaAtual = DateTime.Now;
             CompararHorario compara = new CompararHorario();
